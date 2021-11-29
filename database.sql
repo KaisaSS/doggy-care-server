@@ -1,0 +1,16 @@
+CREATE DATABASE dogdata;
+
+CREATE TABLE owners(
+  customer_id SERIAL PRIMARY KEY NOT NULL,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  mobile BIGINT NOT NULL,
+  flat VARCHAR(30) NOT NULL,
+  street VARCHAR(200) NOT NULL,
+  postcode VARCHAR(10) NOT NULL,
+  city VARCHAR(50) NOT NULL);
+
+CREATE TABLE dogs(
+
+)
